@@ -1,0 +1,17 @@
+input,select{
+    max-width: 400px !important;
+}
+textarea{
+    max-width: 600px!important;
+    min-height: 100px;
+}
+label,button{
+    float: left;
+    margin-right: 20px;
+}
+div.added-categories{
+    max-width: 500px;
+}
+li{
+    list-style: none;
+}

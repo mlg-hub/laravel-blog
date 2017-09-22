@@ -1,0 +1,163 @@
+body{
+    padding:0;
+    margin:0;
+    font-size:16px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #0863d3;
+}
+a:active, a:hover{
+    color: lightblue;
+}
+.btn {
+    display: inline-block !important;
+}
+header.top-nav{
+    background-color: lightblue;
+    font-size:20px;
+}
+header.top-nav nav{
+    width:calc(50% - 64px);
+    margin:auto;
+}
+header ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+header li{
+    height: inherit;
+    display:inline-block;
+}
+header.top-nav li a{
+    text-decoration: none;
+    color:white;
+}
+header.top-nav li{
+    text-align: center;
+    padding:16px 10px;
+}
+header.top-nav li:first-of-type{
+    margin-left: -10px;
+}
+header.top-nav li:last-of-type{
+    margin-right: -10px;
+}
+header.top-nav li:hover{
+    background-color: white;  color: #000;
+}
+header.top-nav li:active{
+    background-color: #2196F3;
+  }
+header.top-nav li:active a, header.top-nav li:hover a{
+    color:  #2196F3;
+}
+li.active{
+    background-color: #2196F3;
+}
+.container-div{
+    margin: 64px auto;
+    width: 85%;
+    text-align: center;
+}
+.card{
+    text-align: left;
+    float: left;
+    border: 2px solid #7cb342;
+    box-shadow: 2px 2px 2px #ccc;
+    width: 40%;
+    margin:32px;
+}
+
+.card header{
+    width:100%;
+    padding: 8px;
+    background-color: #ccc;
+}
+
+.card section ul{
+    list-style: none;
+    padding: 0;
+    margin:16px;
+}
+.card section li{
+    border: 1px solid #67b168;
+    margin:8px 0;
+    padding: 8px;
+}
+.post-info{
+    font-size: 15px;
+    color: #ddd;
+}
+.post-info h3{
+    color: #000;
+}
+.post-info .info{
+    color: darkgreen;
+}
+.post-edit{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.post-edit li{
+    display: inline-block;
+    border:none !important;
+    padding:0 !important;
+    margin: 0 !important;
+}
+.post-edit a {
+    font-size: 14px;
+}
+#post-admin,#category-admin{
+    text-align: left;
+    margin-bottom:24px;
+    padding:8px 32px;
+    border:1px solid gray;
+    background-color:#eee;
+}
+.list article{
+    border: 1px solid black;
+    background-color: white;
+    padding:16px;
+    margin:32px 0;
+}
+.pagination {
+   font-size:28px;
+}
+.pagination a{
+    padding: 0 16px;
+}
+.added-categories{
+    width:100%;
+    line-height: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.added-categories ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.added-category ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+li.category-edit{
+    display: none;
+
+}
+li.category-edit input{
+    transiton: all 0.3s;
+    max-width: 0;
+}
+.sender, .auth{
+    color: #000;
+}
+.added{
+    display: inline-block;
+}
+

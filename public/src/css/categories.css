@@ -1,0 +1,16 @@
+.list article{
+    background-color: white;
+    transition: background-color 0.3s;
+    padding: 0;
+
+}
+
+.margin{
+    margin: 10px;
+}
+.edit{
+    display: inline;
+}
+li{
+    list-style:none;
+}
